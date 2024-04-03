@@ -79,15 +79,15 @@
 }
 
 #typewriterContainer {
-    margin-bottom: 20px;
-    font-size: 2em;
+    margin-bottom: 2px;
+    font-size: 2.2em;
 }
 
 .mania{
    overflow:hidden;
    position: absolute;
-   margin-top: 80px;
-   margin-bottom: 100px;
+   margin-top: 50px;
+   margin-bottom: 50px;
  }
 .pyramid{
    size: 100vw;
