@@ -1,0 +1,302 @@
+* {
+    color: darkmagenta;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contentofbody{
+   margin-top: 500px;
+}
+
+.bgimage {
+    height: 30vh;
+    background: url('https://img.freepik.com/premium-vector/portfolio-word-with-pencil-instead-letter-i-art-design-gallery-concept-vector-conceptual-creative-logo-poster-made-with-special-font_570429-20468.jpg?w=2000');
+    background-size: cover;
+    position: relative;
+}
+
+.navbar-nav .nav-link {
+    color: burlywood
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+}
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .servicesIcon {
+    color: #008000;
+}
+
+.servicesText:hover {
+    border: 1px solid #008000;
+    background-color: #be00be;
+}
+
+.navbarScroll.navbarDark {
+    background-color: rgb(88, 1, 88);
+    color: burlywood;
+}
+
+#about,
+#services,
+#project,
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+    color: burlywood;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+.navbar {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+#typewriterContainer {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.mania{
+   overflow:hidden;
+   position: absolute;
+   margin-top: 80px;
+   margin-bottom: 100px;
+ }
+.pyramid{
+   size: 100vw;
+   position:absolute;
+   right: 50vw;
+   bottom: 0;
+   width: 0;
+   height: 0;
+   transform: translateX(0);
+ border-style: solid;
+ border-width: 0 size size*1.2 size;
+ border-color: transparent transparent #be00be transparent;
+ }
+ 
+ .sand{
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height: 9vw;
+   min-height: 8rem;
+   background: #be00be;
+ }
+ 
+ .ternary-system{
+   position:absolute;
+   bottom:0;
+   right:17vw;
+   left: 82vw;
+   transform: translateX(-100%);
+ }
+ 
+ .sun{
+   position:relative;
+   border-radius:50%;
+   background:#FFDE72;
+ }
+ 
+ .sun.primary{
+   position: absolute;
+   top:15vw;
+   left:5vw;
+   width: 1rem;
+   height: 1rem;
+ }
+ 
+ .sun.secondary{
+   position: absolute;
+   top:5vw;
+   left: 11vw;
+   width: 16vw;
+   max-width:6rem;
+   height: 16vw;
+   max-height:6rem;
+ }
+ 
+ .sun.ternary{
+   right:0;
+   transform: translateX(10.8rem);
+   width:80vw;
+   max-width: 800px;
+   height:80vw;
+   max-height: 800px;
+ }
+ 
+ .pendulums{
+   position:absolute;
+   width:50px;
+   height:200px;
+   right:35vw;
+   top:-120px;
+   perspective:400px;
+ }
+ 
+ .pendulum{
+   position:absolute;
+   width:50px;
+   height:200px;
+   right:44%;
+   top:0;
+   left:50%;
+   transform: translateZ(-300px) translateX(-50%);
+ }
+ 
+ .pendulum.shadow{
+   top:263%;
+   left:-65%;
+   bottom:0;
+   transform-origin: 50% 0;
+ transform:translateX(-50%) scaleY(-1) scaleZ(2) rotateY(-30deg) rotateX(-75deg) translateZ(300px);
+ }
+ 
+ .pendulum .bar{
+   position:absolute;
+   left:50%;
+   transform:translateX(-50%);
+   bottom:0;
+   display:block;
+   width: 20px;
+   height:200px;
+   background:#333;
+ }
+ 
+ .pendulum .string{
+   position:absolute;
+   left:50%;
+   transform:translateX(-50%);
+   width:2px;
+   height:150px;
+   background:#333;
+ }
+ 
+ .pendulum .weight{
+   position:absolute;
+   left:50%;
+   transform:translateX(-50%);
+   bottom:10px;
+   width:50px;
+   height:50px;
+   border-radius:50%;
+   background:#333;
+ }
+ 
+ .pendulum .motion{
+   position:absolute;
+   height:200px;
+   width:50px;
+   transform-origin:50% 10px;
+   animation: swing 1600ms infinite ease-in-out;
+ }
+ 
+ .pendulum.shadow .bar, .pendulum.shadow .string, .pendulum.shadow .weight{
+   background:#3d3a34;
+ }
+ 
+ @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+ 
+ .texts{
+   position:absolute;
+   width: auto;
+   right: 18vw;
+   bottom: calc(63vh);
+   transform: translateY(50%);
+   font-size:2.6rem;
+ }
+ 
+ .titles{
+   text-align:center;
+   font-size: 1em;
+   font-family:'Oswald';
+   font-weight:300;
+   text-transform:uppercase;
+   line-height:1.3em;
+   margin:0;
+   color:#222;
+ }
+ 
+ .titles strong{
+   display:block;
+   font-weight:700;
+   font-size:2em;
+   line-height:1em;
+ }
+ 
+ .titles em{
+   font-style:normal;
+   font-weight:400;
+   font-size:1.899em;
+   line-height:1em;
+   letter-spacing:.29em;
+   margin-left:0.25em;
+ }
+ 
+ .inno{
+   position: absolute;
+   left: 50%;
+   transform: translateX(3.2em);
+   font-family:'Oswald';
+   font-size: 0.6em;
+   color:#222;
+   margin:0 17px;
+   padding:0;
+   text-align:right;
+ }
+ 
+ @keyframes swing{
+   0%{    
+   transform:rotate(-45deg);
+   }
+   50%{
+     
+   transform:rotate(45deg);
+   }
+   100%{
+     
+   transform:rotate(-45deg);
+   }
+ }
+ 
+ @media only screen and (orientation: portrait) {
+   .texts{
+     right: 50%;
+     top: 10%;
+     transform: translateX(50%);
+     font-size: 7vw;
+   }
+   .titles{ 
+     font-size: 1em;
+   }
+ }
+
+
+ 
